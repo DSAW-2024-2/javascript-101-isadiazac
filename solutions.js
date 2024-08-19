@@ -12,7 +12,7 @@ function factorial(n) {
   if (typeof(n) === "string") {
     console.log("Los datos de entrada no son adecuados");
   } else {
-    fct=1
+    let fct=1;
     for (i = 1; i <= n; i++) {
       f = i;
       fct = f * fct;
